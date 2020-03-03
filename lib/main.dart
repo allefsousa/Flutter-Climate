@@ -43,7 +43,7 @@ class SearchPage extends StatelessWidget {
 
     return SingleChildScrollView(
       reverse: true,
-      padding: EdgeInsets.only(bottom: bottom),
+      padding: EdgeInsets.only(bottom: bottom,top: 20),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
