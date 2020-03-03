@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Climate App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -32,9 +32,6 @@ class _MyHomePageState extends State<MyHomePage> {
         resizeToAvoidBottomInset: false,
         resizeToAvoidBottomPadding: false,
         backgroundColor: Colors.grey[900],
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
         body: SearchPage());
   }
 }
@@ -101,7 +98,7 @@ class SearchPage extends StatelessWidget {
                       hintText: "City Name",
                       hintStyle: TextStyle(color: Colors.white70)),
                   keyboardType: TextInputType.text,
-                  textInputAction: TextInputAction.go,
+                  textInputAction: TextInputAction.done,
                   style: TextStyle(
                     color: Colors.white70,
                   ),
